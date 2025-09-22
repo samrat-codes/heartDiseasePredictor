@@ -16,11 +16,6 @@ Cardiovascular diseases remain a leading cause of mortality worldwide. Early and
 ## Visualizations
 Update the image files in `assets/visuals/` and these links will render automatically.
 
-- Correlation Heatmap  
-  ![Correlation heatmap](assets/visuals/correlation_heatmap.png)
-
-- Class Balance  
-  ![Class balance](assets/visuals/class_balance.png)
 
 - Confusion Matrix (Test Set)  
   ![Confusion matrix](assets/visuals/confusion_matrix.png)
