@@ -14,7 +14,6 @@ Cardiovascular diseases remain a leading cause of mortality worldwide. Early and
 - Interpretation: Feature importance (tree-based or permutation importance) to understand drivers of risk.
 
 ## Visualizations
-Update the image files in `assets/visuals/` and these links will render automatically.
 
 
 - Confusion Matrix (Test Set)  
@@ -33,7 +32,7 @@ plt.savefig("assets/visuals/correlation_heatmap.png", dpi=200, bbox_inches="tigh
 ```
 
 ## Dataset
-- Typical sources: UCI Heart Disease dataset or Kaggle variants with similar schema.
+- Sources: UCI Heart Disease dataset or Kaggle variants with similar schema.
 - Target variable: Binary heart disease indicator.
 - Features: Age, sex, chest pain type (cp), resting blood pressure (trestbps), serum cholestoral (chol), fasting blood sugar (fbs), resting ECG (restecg), max heart rate (thalach), exercise-induced angina (exang), oldpeak, slope, number of major vessels (ca), thal, etc.
 - Ensure feature names in your code match your dataset.
@@ -134,5 +133,3 @@ Example (replace with your actual results):
 - Calibration and decision thresholds.
 - Model card with ethical considerations.
 
-## License
-Add a license (e.g., MIT) to clarify usage and distribution.
